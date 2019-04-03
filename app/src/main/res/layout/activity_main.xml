@@ -21,22 +21,22 @@ tools:context=".MainActivity" >
 
         <ImageView
             android:id="@+id/signup"
-            android:layout_width="350dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="@android:drawable/dialog_holo_light_frame"
             android:onClick="callTextView2"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
             android:src="@mipmap/signup" />
 
         <ImageView
             android:id="@+id/login"
-            android:layout_width="350dp"
-            android:layout_height="62dp"
-            android:layout_marginStart="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@android:drawable/dialog_holo_light_frame"
             android:onClick="callTextView"
-
             android:src="@mipmap/login" />
 
         <TextView
